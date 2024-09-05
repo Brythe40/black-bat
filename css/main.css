@@ -1,0 +1,29 @@
+/* Place CSS styles here */
+body {
+    background-image: url(../img/rainy.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100vw 100vh;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+}
+
+.black-bat-image-wrapper {
+    text-align: center;
+}
+
+.black-bat-image-wrapper img{
+    height: 400px;
+    width: 600px;
+}
+
+.black-bat-image-wrapper img:hover{
+    filter: drop-shadow(16px 16px 20px white);
+}
+
+.p-and-span {
+    color: white;
+}
